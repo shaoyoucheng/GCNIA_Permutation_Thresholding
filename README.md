@@ -1,7 +1,6 @@
 # GCNIA_Permutation_Thresholding
 
-This repository provides the source code for the permutation modelling method for output threshold selection in
-Gene-Coexpression networks.
+This repository provides the source code for the permutation modelling method for output threshold selection in weighted association networks returned by inference algorithms such as ARACNE and CLR. 
 
 Source code for performance analysis is contained in the Benchmark_Performance file.
 The "Implementation" file contains the  function which:

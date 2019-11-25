@@ -28,6 +28,15 @@ CONCLUSIONS:
 Permutation modelling is a reliable threshold selection method for weighted gene association networks. 
 
 
+References
+1. 	Meyer PE, Lafitte F, Bontempi G. minet: A R/Bioconductor Package for Inferring Large Transcriptional Networks Using Mutual Information. BMC Bioinformatics. 2008 Dec 29;9(1):461. 
+2. 	Meyer PE, Kontos K, Lafitte F, Bontempi G. Information-Theoretic Inference of Large Transcriptional Regulatory Networks. EURASIP J Bioinforma Syst Biol. 2007;79879. 
+3. 	Faith JJ, Hayete B, Thaden JT, Mogno I, Wierzbowski J, Cottarel G, et al. Large-Scale Mapping and Validation of Escherichia coli Transcriptional Regulation from a Compendium of Expression Profiles. Levchenko A, editor. PLoS Biol. 2007 Jan 9;5(1):e8. 
+4. 	Margolin AA, Nemenman I, Basso K, Wiggins C, Stolovitzky G, Favera RD, et al. ARACNE: An algorithm for the reconstruction of gene regulatory networks in a mammalian cellular context. BMC Bioinformatics. 2006 Mar 20;7(SUPPL.1). 
+
+
+
+
 
 
 

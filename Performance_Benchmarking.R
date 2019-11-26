@@ -9,6 +9,7 @@ if(T){
   library(Matrix)
   library(infotheo)
   library(ggplot2)
+  library(dplyr)
   
   #n_perms is the number of permuted variables which are added to the dataset. This selection is arbitrary. However,
   #it is recommended that n_perms is set to some value less than the number of original gene variables.
@@ -88,6 +89,7 @@ if(T){
       #validate performance against ground truth data
       r <- suppressWarnings(validate(inet=g_int,
                                      tnet=theta))
+      r <- r[!duplicated(r$thrsh),]
       p_mat <- cbind(pr(r), fscore(r))
       p_mat <- cbind(p_mat, rank(p_mat[,3])/nrow(p_mat))
       
